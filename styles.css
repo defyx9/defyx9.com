@@ -1,0 +1,57 @@
+
+ body, html {
+     height: 100vh;
+     padding: 0;
+     margin: 0;
+ }
+.container {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    height: 100%;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+#defyx9 {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0.15rem;
+}
+#defyx9 #x9 {
+    font-size: 1rem;
+}
+.sub {
+    font-size: 0.5rem;
+    font-weight: 500;
+    animation-name: fadeInDelay;
+    animation-duration: 5s;
+}
+
+ @keyframes fadeIn {
+     0% {
+         opacity: 0
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @keyframes fadeInDelay {
+     0% {
+         opacity: 0
+     }
+     90% {
+         opacity: 0;
+         transform: translateY(5px);
+     }
+     100% {
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
+
+
+
